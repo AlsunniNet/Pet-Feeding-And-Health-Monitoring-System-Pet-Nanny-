@@ -1,0 +1,2 @@
+module HardwareTriggerHelper
+end
