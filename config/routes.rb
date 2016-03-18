@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'addpoint/addpoint'
+
   root :to => 'home#index'
   
   get 'home/index'
