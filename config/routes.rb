@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'add_data_point/add-data-point'
 
   root :to => 'home#index'
   
