@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'hardware_trigger/hardware_trigger'
+
+  get 'hardwaretrigger/hardwaretrigger'
 
   get 'home/index'
   root :to => 'home#index'
