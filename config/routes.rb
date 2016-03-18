@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   
   #get 'harwaretrigger/harwaretrigger'
   
-  get '/harwaretrigger', to: 'Hardwaretrigger#hardwaretrigger'
+  get '/harwaretrigger', to: 'HardwaretriggerController#hardwaretrigger'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
