@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'home/index'
   
-  #get 'harwaretrigger/harwaretrigger'
+  get 'harwaretrigger/harwaretrigger'
   root :to => 'home#index'
   
   get '/harwaretrigger', to: 'hardwaretrigger#hardwaretrigger'
