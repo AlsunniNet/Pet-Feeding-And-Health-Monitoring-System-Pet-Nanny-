@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
 
-  get 'moreinfo/moreinfo', to: 'moreinfo#moreinfo', as: 'moreinfo'
+  get '/moreinfo', to: 'moreinfo#moreinfo', as: 'moreinfo'
+  
+  get '/history', to: 'history#history', as: 'history'
 
-  get 'history/history', to: 'history#history', as: 'history'
+  get '/editpoint', to: 'editpoint#editpoint', as: 'editpoint'
 
-  get 'editpoint/editpoint', to: 'editpoint#editpoint', as: 'editpoint'
-
-  get 'addpoint/addpoint', to: 'addpoint#addpoint', as: 'addpoint'
+  get '/addpoint', to: 'addpoint#addpoint', as: 'addpoint'
   
   get '/harwaretrigger', to: 'hardwaretrigger#hardwaretrigger', as: 'hardwaretrigger'
 
@@ -14,7 +14,6 @@ Rails.application.routes.draw do
   
   get 'home/index'
   
-  get 'harwaretrigger/harwaretrigger'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
