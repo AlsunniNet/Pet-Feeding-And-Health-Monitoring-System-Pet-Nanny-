@@ -4,6 +4,6 @@ heroku:
 	git push heroku master
 	
 git:
-	git commit -m "first commit"
+	git commit -am "make it better"
 	git remote add origin git@github.com:jchandr/pet-nanny.git
 	git push -u origin master
