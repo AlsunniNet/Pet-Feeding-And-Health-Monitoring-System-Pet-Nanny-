@@ -5,5 +5,4 @@ heroku:
 	
 git:
 	git commit -am "make it better"
-	git remote add origin git@github.com:jchandr/pet-nanny.git
 	git push -u origin master
