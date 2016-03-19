@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
 
-  get 'addpoint/addpoint'
+  get 'moreinfo/moreinfo', to: 'moreinfo#moreinfo', as: 'moreinfo'
+
+  get 'history/history', to: 'history', as: 'history'
+
+  get 'editpoint/editpoint', to: 'editpoint', as: 'editpoint'
+
+  get 'addpoint/addpoint', to: 'addpoint', as: 'addpoint'
 
   root :to => 'home#index'
   
