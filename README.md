@@ -3,3 +3,6 @@ The Pet Feeding And Health Monitoring System (PFAHMS) is aiming to be an all inc
 
 Done By
 Jeyabalaji Chandrasekaran - jchandr2@binghamton.edu
+Laith Alsunni
+Dhilip Kumar Sivaraj
+Sanjay Kuthur Ganesh
