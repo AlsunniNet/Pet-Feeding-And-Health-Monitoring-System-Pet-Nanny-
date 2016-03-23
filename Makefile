@@ -12,4 +12,7 @@ setgit:
 git:
 	git add .
 	git commit -am "make it better"
-	git push -u origin master
+	git push -u origin jchandr
+
+clean:
+	clear
