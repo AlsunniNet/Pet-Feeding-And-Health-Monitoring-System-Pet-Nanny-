@@ -14,5 +14,11 @@ git:
 	git commit -am "make it better"
 	git push -u origin jchandr
 
+update:
+	git add .
+	git commit -am "make it better"
+	git push -u origin jchandr
+	git push heroku master
+
 clean:
 	clear
