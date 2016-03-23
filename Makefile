@@ -20,5 +20,11 @@ update:
 	git push -u origin jchandr
 	git push heroku jchandr
 
+perfect:
+	git add .
+	git commit -am "make it better"
+	git push heroku master
+	git push origin master
+
 clean:
 	clear
