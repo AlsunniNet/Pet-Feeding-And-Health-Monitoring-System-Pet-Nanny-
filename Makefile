@@ -19,3 +19,6 @@ update:
 	git commit -am "make it better"
 	git push -u origin jchandr
 	git push heroku jchandr
+
+clean:
+	clear
