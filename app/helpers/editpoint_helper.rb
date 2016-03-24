@@ -1,0 +1,2 @@
+module EditpointHelper
+end
