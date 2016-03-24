@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title PFAHMS
+    %link{:href => "/app/assets/stylesheet/bootstrap.min.css", :rel => "stylesheet"}/
+    %link{:href => "/app/assets/stylesheet/custom.css", :rel => "stylesheet"}/
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    .container-fluid
+      %h1 Pet Nanny
+      = yield
+    %footer
+      %container
+        .padding2cm
+          %p
+            Done by
+            %a{:href => "https://github.com/orgs/AlsunniNet/teams/bu-cs545", :target => "_blank"} BU-CS545

@@ -1,0 +1,2 @@
+module MoreinfoPetsweightHelper
+end

@@ -1,0 +1,14 @@
+%h1 Hardware System Trigger
+%br
+  %br
+    %form
+      %text.col-md-3.col-xs-6 Food Quantity in Grams:
+      %input#food_quantity.col-md-3{:type => "number"}
+        %br
+          %br
+            %text.col-md-3.col-xs-6 Water Volume in ml:
+            %input#water_volume.col-md-3{:type => "number"}
+              %br
+                %br
+                  %input#dispese{:action => "post", :type => "submit", :value => "Dispense"}>/
+                  "dispese_clicked" class="col-xs-6"&gt;

@@ -1,0 +1,2 @@
+module MoreinfoFoodHelper
+end

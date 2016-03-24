@@ -1,5 +1,19 @@
 Rails.application.routes.draw do
 
+  get 'home/home'
+
+  get 'history/history'
+
+  get 'editpoint/editpoint'
+
+  get 'addpoint/addpoint'
+
+  get 'moreinfo_water/moreinfo-water'
+
+  get 'moreinfo_food/moreinfo-food'
+
+  get 'moreinfo_petweight/moreinfo-petweight'
+
   get '/moreinfo', to: 'moreinfo#moreinfo', as: 'moreinfo'
   
   get '/history', to: 'history#history', as: 'history'

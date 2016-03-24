@@ -29,6 +29,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# haml view gem
+gem "haml-rails", "~> 0.9"
+
 gem 'sass'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

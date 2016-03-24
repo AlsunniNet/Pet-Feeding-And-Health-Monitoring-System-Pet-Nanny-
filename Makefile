@@ -22,3 +22,13 @@ update:
 
 clean:
 	clear
+
+gen:
+	rails generate controller addpoint addpoint --haml
+	rails generate controller editpoint editpoint --haml
+	rails generate controller history history --haml
+	rails generate controller home home --haml
+	rails generate controller moreinfo-petsweight moreinfo-petsweight --haml
+	rails generate controller moreinfo-food moreinfo-food --haml
+	rails generate controller moreinfo-water moreinfo-water --haml
+	rails generate controller hardwaretrigger hardwaretrigger --haml

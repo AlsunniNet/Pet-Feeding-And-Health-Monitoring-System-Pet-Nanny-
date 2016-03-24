@@ -1,0 +1,8 @@
+Feature: Give the user to view Pet's Weight History
+when I click on the History on Homepage 
+then I should go to history page
+and I should see Pet's Weight History
+
+Feature: Given sort the Pet's Weight Table by Timestamp
+when I click on the Timestamp title
+then I should see the Pet's Weight History sorted by Timestamp
