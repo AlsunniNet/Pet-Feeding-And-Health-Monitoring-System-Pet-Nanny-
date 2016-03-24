@@ -15,8 +15,10 @@ git:
 	git push -u origin master
 
 update:
-	make git
-	make heroku
+	git add .
+	git commit -am "make it better"
+	git push origin master
+	git push heroku master
 
 clean:
 	clear
