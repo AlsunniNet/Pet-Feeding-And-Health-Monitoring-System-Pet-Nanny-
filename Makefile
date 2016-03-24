@@ -23,7 +23,7 @@ update:
 clean:
 	clear
 
-gen:
+gene:
 	rails generate controller addpoint addpoint
 	rails generate controller editpoint editpoint
 	rails generate controller history history
@@ -31,3 +31,5 @@ gen:
 	rails generate controller moreinfo-petsweight moreinfo-petsweight
 	rails generate controller moreinfo-water moreinfo-water
 	rails generate controller hardwaretrigger hardwaretrigger
+
+
