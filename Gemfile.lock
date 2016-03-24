@@ -54,6 +54,22 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+<<<<<<< HEAD
+=======
+    haml (4.0.7)
+      tilt
+    haml-rails (0.9.0)
+      actionpack (>= 4.0.1)
+      activesupport (>= 4.0.1)
+      haml (>= 4.0.6, < 5.0)
+      html2haml (>= 1.0.1)
+      railties (>= 4.0.1)
+    html2haml (2.0.0)
+      erubis (~> 2.7.0)
+      haml (~> 4.0.0)
+      nokogiri (~> 1.6.0)
+      ruby_parser (~> 3.5)
+>>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
     i18n (0.7.0)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -65,11 +81,17 @@ GEM
     json (1.8.3)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
+<<<<<<< HEAD
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
     mime-types (3.0)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0221)
+=======
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    mime-types (2.99.1)
+>>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
@@ -106,6 +128,11 @@ GEM
     rake (11.1.1)
     rdoc (4.2.2)
       json (~> 1.4)
+<<<<<<< HEAD
+=======
+    ruby_parser (3.8.1)
+      sexp_processor (~> 4.1)
+>>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
     sass (3.4.21)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -116,6 +143,10 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+<<<<<<< HEAD
+=======
+    sexp_processor (4.7.0)
+>>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
     spring (1.6.4)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
@@ -132,8 +163,14 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+<<<<<<< HEAD
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
+=======
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+>>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
     web-console (2.3.0)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -146,6 +183,11 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+<<<<<<< HEAD
+=======
+  haml
+  haml-rails (~> 0.9)
+>>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
   jbuilder (~> 2.0)
   jquery-rails
   pg
