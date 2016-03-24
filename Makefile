@@ -1,8 +1,8 @@
 heroku:
 	git add .
 	git commit -am "make it better"
-	git push heroku master
-	
+	git push heroku HEAD:jchandr
+
 setheroku:
 	heroku git:remote -a petnanny
 
@@ -13,6 +13,12 @@ git:
 	git add .
 	git commit -am "make it better"
 	git push -u origin jchandr
+
+update:
+	git add .
+	git commit -am "make it better"
+	git push -u origin jchandr
+	git push heroku HEAD:jchandr
 
 clean:
 	clear
