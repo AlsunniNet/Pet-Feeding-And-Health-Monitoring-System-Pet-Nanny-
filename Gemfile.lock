@@ -161,6 +161,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  haml
   haml-rails (~> 0.9)
   jbuilder (~> 2.0)
   jquery-rails
