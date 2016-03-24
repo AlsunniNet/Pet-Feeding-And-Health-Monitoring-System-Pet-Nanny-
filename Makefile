@@ -20,6 +20,9 @@ update:
 	git push origin master
 	git push heroku master
 
+clean:
+	clear
+
 gene:
 	rails generate controller addpoint addpoint
 	rails generate controller editpoint editpoint
