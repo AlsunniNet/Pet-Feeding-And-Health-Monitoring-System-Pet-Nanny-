@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
-<<<<<<< HEAD
-=======
+  get 'hardwaretrigger/hardwaretrigger'
+
+  get 'moreinfo_water/moreinfo-water'
+
+  get 'moreinfo_petsweight/moreinfo-petsweight'
+
   get 'home/home'
 
   get 'history/history'
@@ -16,7 +20,6 @@ Rails.application.routes.draw do
 
   get 'moreinfo_petweight/moreinfo-petweight'
 
->>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
   get '/moreinfo', to: 'moreinfo#moreinfo', as: 'moreinfo'
   
   get '/history', to: 'history#history', as: 'history'
@@ -29,11 +32,7 @@ Rails.application.routes.draw do
 
   root :to => 'home#index'
   
-<<<<<<< HEAD
   get 'home/index'
-=======
-  get 'home/index', to: 'home#index', as: 'home'
->>>>>>> f4241a5c567a3267c1c72477db7b5c66b94d0e20
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
