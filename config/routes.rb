@@ -1,3 +1,5 @@
+#route here
+
 Rails.application.routes.draw do
 
   get 'hardwaretrigger/hardwaretrigger'
