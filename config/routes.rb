@@ -19,8 +19,6 @@ Rails.application.routes.draw do
   get 'moreinfo_food/moreinfo-food'
 
   get 'moreinfo_petweight/moreinfo-petweight'
-
-  get '/moreinfo', to: 'moreinfo#moreinfo', as: 'moreinfo'
   
   get '/history', to: 'history#history', as: 'history'
 
@@ -32,7 +30,7 @@ Rails.application.routes.draw do
 
   root :to => 'home#index'
   
-  get 'home/index'
+  get 'home/index', to: 'home#index', as: 'home'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
