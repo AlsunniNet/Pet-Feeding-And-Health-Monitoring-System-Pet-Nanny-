@@ -31,6 +31,3 @@ gene:
 	rails generate controller moreinfo-petsweight moreinfo-petsweight
 	rails generate controller moreinfo-water moreinfo-water
 	rails generate controller hardwaretrigger hardwaretrigger
-
-clean:
-	clear
