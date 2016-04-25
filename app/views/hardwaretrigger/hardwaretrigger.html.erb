@@ -1,9 +1,12 @@
 <h1>Hardware System Trigger</h1>
 <br><br>
 <form>
-    <text class="col-md-3 col-xs-6">Food Quantity in Grams:</text> <input type="number" id="food_quantity" class="col-md-3">
+    <text class="col-md-3 col-xs-6">Food Quantity in Grams:</text> 
+    <input type="number" id="food_quantity" class="col-md-3" name="food_quantitiy">
+    	<%= %>
+    </input>
     <br><br>
-    <text class="col-md-3 col-xs-6">Water Volume in ml:</text><input type="number" id="water_volume" class="col-md-3">
+    <text class="col-md-3 col-xs-6">Water Volume in ml:</text><input type="number" id="water_volume" class="col-md-3" name="water_volume">
     <br><br>
     
     <input type="submit" id="dispese" value="Dispense" action="post" method"dispese_clicked" class="col-xs-6">
