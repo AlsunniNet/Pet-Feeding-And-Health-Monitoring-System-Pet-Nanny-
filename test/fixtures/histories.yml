@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  timestamps: MyString
+  pet_weight: 1
+  food_weight: 1
+  water_volume: 1
+  waste_weight: 1
+
+two:
+  timestamps: MyString
+  pet_weight: 1
+  food_weight: 1
+  water_volume: 1
+  waste_weight: 1

@@ -11,15 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160420202202) do
+ActiveRecord::Schema.define(version: 20160509233042) do
 
   create_table "histories", force: :cascade do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string   "timestamps"
     t.integer  "pet_weight"
     t.integer  "food_weight"
     t.integer  "water_volume"
     t.integer  "waste_weight"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end

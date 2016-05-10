@@ -1,10 +1,30 @@
+<head>
+
+</head>
 <h1>History</h1>
 <div class="col-md-4">
 <container>
-<table style="width:100%" >
+<table style="width:100%">
 <caption align="left">Pets Weight</caption>
 
-	
+<tr>
+<td>ID</td>
+<td>Timestamp</td>
+<td>Weight</td>
+</tr>
+<tr>
+<%== @history.each do |hist| %>
+	<td>
+		<%= hist.id %>
+	</td>
+	<td>
+		<%= hist.updated_at%>
+	</td>
+	<td>
+		<%= hist.pet_weight%>
+	</td>
+</tr>
+<% end %>
 </table>
 </container>
 <footer><p align="right">moreinfo >> </p></footer>

@@ -2,6 +2,10 @@ padding2cm {
     padding-left: 2cm;
 }
 
+h3 {
+	visibility: hidden;
+}
+
 a:hover {
     text-decoration: none;
 }
