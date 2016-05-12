@@ -5,12 +5,13 @@
 <div class="col-md-4">
 <container>
 <table style="width:100%">
-<caption align="left">Pets Weight</caption>
+<caption align="left">Pet's Weight</caption>
+
 
 <tr>
 <td>ID</td>
 <td>Timestamp</td>
-<td>Weight</td>
+<td>Pet's Weight</td>
 </tr>
 <tr>
 <%== @history.each do |hist| %>
@@ -25,6 +26,8 @@
 	</td>
 </tr>
 <% end %>
+
+
 </table>
 </container>
 <footer><p align="right">moreinfo >> </p></footer>
@@ -34,8 +37,23 @@
 <container>
 <table style="width:100%" >
 <caption align="left">Food</caption>
-
-	
+<td>ID</td>
+<td>Timestamp</td>
+<td>Food Weight</td>
+</tr>
+<tr>
+<%== @history.each do |hist| %>
+	<td>
+		<%= hist.id %>
+	</td>
+	<td>
+		<%= hist.updated_at%>
+	</td>
+	<td>
+		<%= hist.food_weight%>
+	</td>
+</tr>
+<% end %>	
 </table>
 </container>
 <footer><p align="right">moreinfo >> </p></footer>
@@ -45,8 +63,23 @@
 <container>
 <table style="width:100%" >
 <caption align="left">Water</caption>
-
-	
+<td>ID</td>
+<td>Timestamp</td>
+<td>Water Volume</td>
+</tr>
+<tr>
+<%== @history.each do |hist| %>
+	<td>
+		<%= hist.id %>
+	</td>
+	<td>
+		<%= hist.updated_at%>
+	</td>
+	<td>
+		<%= hist.water_volume%>
+	</td>
+</tr>
+<% end %>
 </table>
 </container>
 <footer><p align="right">moreinfo >> </p></footer>

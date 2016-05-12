@@ -6,13 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-more_entries = [
-
-{:pet_weight => '500', :food_weight => '300', :water_volume => '100', :waste_weight => '25'},
-{:pet_weight => '5000', :food_weight => '258', :water_volume => '120', :waste_weight => '50'},
-{:pet_weight => '5000', :food_weight => '258', :water_volume => '120', :waste_weight => '50'}
-]
-
-more_entries.each do |entry|
-	History.create ! (entry)
-end
+	History.create([pet_weight: '22', food_weight: '12', water_volume: '22'])

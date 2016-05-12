@@ -1,14 +1,17 @@
 <h1>Addpoint</h1>
 
-<form>
-	<text class="col-md-3 col-xs-6">Pet Weight:</text> 
-    <input type="number" id="add_point_pet_weight" class="col-md-3" name="add_point_pet_weight">
+<%= form_for History.create do |f| %>
+	<text class="col-md-3 col-xs-6">Pet Weight:</text>
+    <%= f.number_field :pet_weight %>
+
     <br><br>
     <text class="col-md-3 col-xs-6">Water Volume in ml:</text>
-    <input type="number" id="add_point_water_volume" class="col-md-3" name="add_point_water_volume">
+    <%= f.number_field :water_volume %>
+
     <br><br>
     <text class="col-md-3 col-xs-6">Food Weight in grams:</text>
-    <input type="number" id="add_point_food_amount" class="col-md-3" name="add_point_food_amount">
+    <%= f.number_field :food_weight %>
+    
     <br><br>
-    <input type="submit" id="add_point" value="Add Point" action="post" method="addpoint" class="col-xs-6">
-</form>
+    <%= submit_tag 'Add Point' %>
+<% end %>
