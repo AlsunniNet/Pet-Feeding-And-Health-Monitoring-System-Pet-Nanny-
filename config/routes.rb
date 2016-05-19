@@ -18,6 +18,8 @@ Rails.application.routes.draw do
 
   post 'addpoint/addpoint', to: 'addpoint#create'
 
+  post 'hardwaretrigger/hardwaretrigger', to: 'hardwaretrigger#create'
+
   get 'moreinfo_water/moreinfo-water'
 
   get 'moreinfo_food/moreinfo-food'

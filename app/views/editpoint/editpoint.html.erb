@@ -1,2 +1,32 @@
-<h1>Editpoint#editpoint</h1>
-<p>Find me in app/views/editpoint/editpoint.html.erb</p>
+<h1>Editpoint</h1>
+
+<div>
+<containter>
+<select name="selected_record">
+	<option></option>
+	<%== @history.each do |hist| %>
+	<option>
+		<%= hist.updated_at %>
+	</option>
+	<% end %>
+	</select>
+</containter>
+</div>
+
+<h1> Update the data below and submit </h1>
+
+<%= form_for :editedpoint do |f| %>
+	<text class="col-md-3 col-xs-6">Pet Weight:</text>
+    <%= f.number_field :pet_weight %>
+
+    <br><br>
+    <text class="col-md-3 col-xs-6">Water Volume in ml:</text>
+    <%= f.number_field :water_volume %>
+
+    <br><br>
+    <text class="col-md-3 col-xs-6">Food Weight in grams:</text>
+    <%= f.number_field :food_weight %>
+    
+    <br><br>
+    <%= f.submit "Update History" %>
+<% end %>

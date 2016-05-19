@@ -1,13 +1,13 @@
 <h1>Hardware System Trigger</h1>
 <br><br>
-<form>
-    <text class="col-md-3 col-xs-6">Food Quantity in Grams:</text> 
-    <input type="number" id="food_quantity" class="col-md-3" name="food_quantitiy">
-    	<%= %>
-    </input>
+<%= form_for :history do |f| %>
+    <text class="col-md-3 col-xs-6">Water Volume in ml:</text>
+    <%= f.number_field :water_volume %>
+
     <br><br>
-    <text class="col-md-3 col-xs-6">Water Volume in ml:</text><input type="number" id="water_volume" class="col-md-3" name="water_volume">
-    <br><br>
+    <text class="col-md-3 col-xs-6">Food Weight in grams:</text>
+    <%= f.number_field :food_weight %>
     
-    <input type="submit" id="dispese" value="Dispense" action="post" method="dispese_clicked" class="col-xs-6">
-</form>
+    <br><br>
+    <%= f.submit "Dispense"%>
+<% end %>
