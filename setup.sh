@@ -7,3 +7,6 @@ export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 brew install ruby
 gem install bundler
 bundle install --without production
+cd bin
+rake db:migrate
+cd ..
