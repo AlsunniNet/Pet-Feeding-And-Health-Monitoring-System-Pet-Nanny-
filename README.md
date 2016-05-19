@@ -8,6 +8,13 @@ Setting the hardware
 2) navigate to the root directory and run the batch script. This will do all the things that are needed for the application that are need for the environment.
 	$ ./setup.sh
 
+3) Run 
+	$ rails server -b 192.168.29.203 -p 3000
+
+4) if you can do the namespace forwarding do the forward of your address to  https://192.168.29.203:3000.
+
+
+
 Done By
 Jeyabalaji Chandrasekaran - jchandr2@binghamton.edu
 Laith Alsunni
