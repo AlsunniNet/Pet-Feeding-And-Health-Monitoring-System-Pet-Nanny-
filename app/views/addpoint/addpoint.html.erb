@@ -1,6 +1,6 @@
 <h1>Addpoint</h1>
 
-<%= form_for History.create do |f| %>
+<%= form_for :history do |f| %>
 	<text class="col-md-3 col-xs-6">Pet Weight:</text>
     <%= f.number_field :pet_weight %>
 
@@ -13,5 +13,5 @@
     <%= f.number_field :food_weight %>
     
     <br><br>
-    <%= submit_tag 'Add Point' %>
+    <%= f.submit %>
 <% end %>

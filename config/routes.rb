@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'redirectpage/redirectpage'
+
   get 'hardwaretrigger/hardwaretrigger'
 
   get 'moreinfo_water/moreinfo-water'
@@ -13,6 +15,8 @@ Rails.application.routes.draw do
   get 'editpoint/editpoint'
 
   get 'addpoint/addpoint'
+
+  post 'addpoint/addpoint', to: 'addpoint#create'
 
   get 'moreinfo_water/moreinfo-water'
 
