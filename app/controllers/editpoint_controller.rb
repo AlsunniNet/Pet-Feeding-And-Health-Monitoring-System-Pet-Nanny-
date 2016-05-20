@@ -4,12 +4,12 @@ class EditpointController < ApplicationController
  	end
 
  	def editedpoint
- 		@tempid = params[:selected_record]
- 		@editedpoint = History.find(tempid)
+ 		#@tempid = params[:selected_record]
+ 		#@editedpoint = History.find(tempid)
  	end
 
  	def update
- 		@history = History.update(editpoint_params)
+ 		#@history = History.update(editpoint_params)
  		redirect_to "/"
  	end
 

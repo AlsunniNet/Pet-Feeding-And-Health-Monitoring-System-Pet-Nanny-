@@ -12,7 +12,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'rake'
+gem 'rake',
 #gem 'rake', '~> 0.9.2.2'
 
 # Use jquery as the JavaScript library
@@ -37,6 +37,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'haml'
 # gem 'sass'
 gem 'rails_12factor'
+gem 'rspec'
+gem 'rspec-rails'
+gem 'webrat'
+gem 'cucumber'
+gem 'cucumber-rails', '1.0.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -56,3 +61,8 @@ group :development do
   gem 'spring'
 end
 
+group :test, :development do
+  # gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+end
